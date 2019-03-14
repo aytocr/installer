@@ -6,7 +6,7 @@
 
 - name: Git clone CONSUL
   git:
-    repo: https://github.com/aytocr/consul.gitaaa
+    repo: https://github.com/aytocr/consul.git
     dest: /home/{{ deploy_user }}/consul
     clone: yes
   when: consul_repo.stat.exists == False

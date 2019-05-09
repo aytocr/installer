@@ -26,5 +26,5 @@
       become: true
     - memcached
     - timezone
-    # - capistrano
+    - capistrano
 

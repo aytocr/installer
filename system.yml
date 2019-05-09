@@ -1,7 +1,6 @@
----
-- name: Set up PostgreSQL
+- name: Set up system
   hosts: all
   vars:
     ansible_user: "{{ deploy_user }}"
   roles:
-    - postgresql
+    - system
